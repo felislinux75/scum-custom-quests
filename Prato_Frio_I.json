@@ -1,0 +1,25 @@
+{
+  "AssociatedNPC": "GeneralGoods",
+  "Tier": 1,
+  "Title": "Prato frio I",
+  "Description": "Outro dia vindo para o trabalho fui emboscado por um grupo armado, mate alguns deles para que eles saibam que não são os unicos armados por aqui.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 750,
+      "Fame": 5
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Elimine 5 rebeldes",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 5,
+      "TargetCharacters": [
+        "ArmedNPC"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "AssociatedNPC": "GeneralGoods",
+  "Tier": 1,
+  "Title": "Vou para praia I",
+  "Description": "Preciso juntar alguns itens para pagar minha estadia na praia, aqueles idiotas adoram meus colares, mas estou sem tempo para produzi-los, pago bem para quem me ajudar com isto.",
+  "TimeLimitHours": 24.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1250,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Survival",
+          "Experience": 10000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Me traga colares de dentes",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": true,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "05_Teeth_Necklace",
+            "10_Teeth_Necklace",
+            "15_Teeth_Necklace"
+          ],
+          "RequiredNum": 5
+        },
+        {
+          "AcceptedItems": [
+            "2_pieces_Ear_Necklace",
+            "4_pieces_Ear_Necklace",
+            "6_pieces_Ear_Necklace"
+          ],
+          "RequiredNum": 5
+        }
+      ]
+    }
+  ]
+}

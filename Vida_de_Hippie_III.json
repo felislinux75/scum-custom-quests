@@ -1,0 +1,37 @@
+{
+  "AssociatedNPC": "GeneralGoods",
+  "Tier": 3,
+  "Title": "Vida de Hippie III",
+  "Description": "Meus pais nunca acreditaram em mim, sempre quiseram que eu estudasse e fosse um garoto de sucesso, toda via eu preifo traçar meus rumos, estou precisando de missangas para um projeto, pode me ajudar com alguns olhos de vidro.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 16000,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Survival",
+          "Experience": 50000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Encontre 50 olhos de vidro",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": false,
+      "PlayerKeepsItems": true,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Puppet_Eye"
+          ],
+          "RequiredNum": 50
+        }
+      ]
+    }
+  ]
+}
