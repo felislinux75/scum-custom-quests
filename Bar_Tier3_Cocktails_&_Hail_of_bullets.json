@@ -1,0 +1,75 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 3,
+  "Title": "Coquetéis e chuva de balas",
+  "Description": "A bartender recebeu certa vez uma entrega de bebidas excelentes… infelizmente, por drone. A encomenda voou direto para uma base militar contaminada – segundo ela, um “pequeno problema de navegação”. Ela quer saber se o engradado ainda está lá. Ou pelo menos se o cheiro de tequila ainda está presente.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2800,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Stealth",
+          "Experience": 3500
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Tequila",
+          "Price": 50,
+          "Amount": 1,
+          "Fame": 15,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Examine a caixa no acampamento militar.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_3_Military_base_01.B_3_Military_base_01:PersistentLevel.SM_Crate_02_A_Military24.StaticMeshComponent0",
+          "FallbackTransform": "249833.875000,-34325.234375,24092.628906|0.000000,53.485905,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Crate/SM_Crate_02_A_Military.SM_Crate_02_A_Military",
+          "Instance": 1
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 249851.469,
+            "Y": -34528.523,
+            "Z": 24184.779
+          },
+          "SizeFactor": 0.2
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Colecione uma garrafa de tequila",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Tequila"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 1
+        }
+      ]
+    }
+  ]
+}

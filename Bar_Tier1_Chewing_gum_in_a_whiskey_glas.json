@@ -1,0 +1,41 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 1,
+  "Title": "Chiclete em um copo de uísque",
+  "Description": "Alguém cuspiu o chiclete em todos os copos. A bartender não aguentou mais. Ela só vai servir bebidas em garrafas plásticas com tampa — mas até essas acabaram. Tragam mais antes que ela parta para a espingarda.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 520,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Survival",
+          "Experience": 1800
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Recolha garrafas de plástico",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "PETBottle01",
+            "PETBottle02",
+            "PETBottle03",
+            "PETBottle04",
+            "Water_05l"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 1,
+  "Title": "O cheiro da sobrevivência",
+  "Description": "Um dos moradores do posto avançado teve um pequeno acidente porque não conseguiu encontrar um banheiro a tempo. O comerciante quer resolver o problema discretamente e lhe incumbiu de obter um kit neutralizador de odores para as calças dele e colocá-lo em seu armário.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 690,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Camouflage",
+          "Experience": 2000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Procure sabonete e uma garrafa de água com água suficiente.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Soap"
+          ],
+          "RequiredNum": 1,
+          "RandomAdditionalRequiredNum": 1
+        },
+        {
+          "AcceptedItems": [
+            "Water_05l"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemResourceRatio": 50.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Deixe o kit de limpeza com o vendedor de armas.",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Outpost_Armory.Z_3_Outpost_Armory:PersistentLevel.BP_OutpostArmory_IndoorMeshes_2.StaticMesh24",
+          "FallbackTransform": "23011.818359,-680588.187500,313.932953|0.000000,106.321411,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Outpost/ArmoryOutpost/MergedMeshes_02/SM_MERGED_Hooks_and_Locker.SM_MERGED_Hooks_and_Locker",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_2_Outpost_Armory.C_2_Outpost_Armory:PersistentLevel.BP_OutpostArmory_IndoorMeshes_2.StaticMesh24",
+          "FallbackTransform": "-147399.656250,287159.625000,69663.921875|0.000000,137.411728,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Outpost/ArmoryOutpost/MergedMeshes_02/SM_MERGED_Hooks_and_Locker.SM_MERGED_Hooks_and_Locker",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_4_Outpost_Armory.B_4_Outpost_Armory:PersistentLevel.BP_OutpostArmory_IndoorMeshes_2.StaticMesh24",
+          "FallbackTransform": "570274.562500,-219356.234375,338.758392|0.000000,-142.582916,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Outpost/ArmoryOutpost/MergedMeshes_02/SM_MERGED_Hooks_and_Locker.SM_MERGED_Hooks_and_Locker",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_0_Outpost_Armory.A_0_Outpost_Armory:PersistentLevel.BP_OutpostArmory_IndoorMeshes_2.StaticMesh24",
+          "FallbackTransform": "-616836.562500,-548267.875000,2357.517090|0.000000,-145.899139,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Outpost/ArmoryOutpost/MergedMeshes_02/SM_MERGED_Hooks_and_Locker.SM_MERGED_Hooks_and_Locker",
+          "Instance": 2
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": false,
+      "WorldMarkerShowDistance": 50
+    }
+  ]
+}

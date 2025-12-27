@@ -1,0 +1,65 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 3,
+  "Title": "Motores, mitos e mecanismos",
+  "Description": "Dizem por aí que injetar fluido de freio em um motor daria potência suficiente para ultrapassar até mesmo um mecânico que estivesse olhando na mesma altura — desde que o motor não explodisse. Naturalmente, alguém na oficina quer testar isso imediatamente. Sua missão é encontrar as peças — e, já que está nisso, observar de perto um mecânico patrulhando a pista de testes. Puramente por curiosidade científica.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 4000,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Running",
+          "Experience": 8000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Adquira fluido de freio.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Brake_Oil"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Vá até a pista de testes e marque a oficina onde o teste pode ser realizado.",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_2_Airport_02_Int.B_2_Airport_02_Int:PersistentLevel.BP_Prison_Garage_INT_01_1.SM_ToolDesk_01 (ISMA)_InstancedStaticMesh",
+          "FallbackTransform": "-240208.062500,-34990.343750,35718.761719|0.000000,163.999649,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Prison/Objects/SM_ToolDesk_01.SM_ToolDesk_01",
+          "Instance": 1
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 0,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -240168.375,
+            "Y": -34870.602,
+            "Z": 35811.336
+          },
+          "SizeFactor": 0.5
+        }
+      ]
+    }
+  ]
+}

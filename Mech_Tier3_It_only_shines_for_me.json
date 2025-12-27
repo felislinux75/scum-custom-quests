@@ -1,0 +1,73 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 3,
+  "Title": "Só brilha para mim.",
+  "Description": "Em meio a toda a sucata enferrujada do velho ferro-velho, encontra-se um pedaço de metal que, por alguma razão inexplicável, é sagrado para o mecânico. Ele afirma tê-lo usado para consertar um carro, resgatar um cachorro e espantar um idiota — tudo no mesmo dia. Agora, ele sumiu. Você precisa encontrá-lo. E não, ele não se parece com qualquer outro pedaço de metal amassado — você o reconhecerá.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2500,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Experience": 2700
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Vá até o ferro-velho e encontre o pedaço de metal.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_0_Junkyard_01.B_0_Junkyard_01:PersistentLevel.SM_ScrapPile_31.StaticMeshComponent0",
+          "FallbackTransform": "-871871.937500,-197627.750000,20196.000000|0.000000,16.284578,0.000000|3.001000,3.001000,2.506000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Junkyard/Scrap_Piles/SM_Metal_Scrap_Pile_01_Detailed.SM_Metal_Scrap_Pile_01_Detailed",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_0_Junkyard_01.B_0_Junkyard_01:PersistentLevel.SM_ScrapPile_32.StaticMeshComponent0",
+          "FallbackTransform": "-865202.562500,-197822.250000,20200.007812|0.000000,0.273604,0.000000|2.105991,2.329444,1.626314",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Junkyard/Scrap_Piles/SM_Metal_Scrap_Pile_01_Detailed.SM_Metal_Scrap_Pile_01_Detailed",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_0_Junkyard_01.B_0_Junkyard_01:PersistentLevel.SM_ScrapPile_9.StaticMeshComponent0",
+          "FallbackTransform": "-869033.500000,-189455.500000,20200.007812|0.000000,-56.898018,0.000000|3.001000,3.416238,2.506000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Junkyard/Scrap_Piles/SM_Metal_Scrap_Pile_01_Detailed.SM_Metal_Scrap_Pile_01_Detailed",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_0_Junkyard_02.B_0_Junkyard_02:PersistentLevel.SM_ScrapPile_49.StaticMeshComponent0",
+          "FallbackTransform": "-869221.812500,-179370.250000,20358.046875|0.231769,-169.190857,4.599953|2.328711,2.833472,2.120210",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Junkyard/Scrap_Piles/SM_Metal_Scrap_Pile_01_Detailed.SM_Metal_Scrap_Pile_01_Detailed",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_0_Junkyard_02.B_0_Junkyard_02:PersistentLevel.SM_ScrapPile_60.StaticMeshComponent0",
+          "FallbackTransform": "-867126.312500,-171544.625000,21400.867188|-4.052515,-26.418438,-8.129404|2.328711,2.833472,2.120210",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Junkyard/Scrap_Piles/SM_Metal_Scrap_Pile_01_Detailed.SM_Metal_Scrap_Pile_01_Detailed",
+          "Instance": 2
+        }
+      ],
+      "MinNeeded": 5,
+      "MaxNeeded": 5,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 0,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -868531.312,
+            "Y": -188816.719,
+            "Z": 20791.957
+          },
+          "SizeFactor": 2.2
+        }
+      ]
+    }
+  ]
+}

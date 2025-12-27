@@ -1,0 +1,62 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 2,
+  "Title": "Compras de Magazine",
+  "Description": "O vendedor está com falta de carregadores. Não de armas, apenas de carregadores. Os clientes estão carregando munição, enfiando-a nos bolsos dos casacos com as mãos nuas, e depois reclamando quando ela emperra. Você deveria consertar isso.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Awareness",
+          "Experience": 3000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Obtenha 3 Magazine quaisquer.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Magazine_AK15",
+            "Magazine_AK47",
+            "Magazine_AKS_74U",
+            "Magazine_AS_Val",
+            "Magazine_AWM",
+            "Magazine_AWP",
+            "Magazine_Block21",
+            "Magazine_CarbonHunter",
+            "Magazine_DEagle_357",
+            "Magazine_DEagle_50",
+            "Magazine_HS9",
+            "Magazine_Hunter85_V2",
+            "Magazine_Krueger",
+            "Magazine_M16",
+            "Magazine_M1911",
+            "Magazine_M249",
+            "Magazine_M82A1",
+            "Magazine_M9",
+            "Magazine_MAC10",
+            "Magazine_MP5",
+            "Magazine_RPK",
+            "Magazine_SCAR_DMR",
+            "Magazine_SF19",
+            "Magazine_SVD_Dragunov",
+            "Magazine_UMP45",
+            "Magazine_VHS2"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "AssociatedNpc": "Harbourmaster",
+  "Tier": 1,
+  "Title": "Faça você mesmo ou vá para casa pau.",
+  "Description": "Um verdadeiro pescador não espera – ele constrói. O pescador quer saber se você tem o que é preciso ou se está apenas falando da boca para fora. Mostre a ele que você consegue fazer sem uma loja ou luxos. Madeira, arame, paciência – e no final, lá está: sua primeira vara de pesca caseira.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 450,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Survival",
+          "Experience": 1400
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Construa uma vara de pesca improvisada",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "ImprovisedFishingRod"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "AssociatedNpc": "Harbourmaster",
+  "Tier": 3,
+  "Title": "Pesca em área restrita",
+  "Description": "Outrora um local secreto para grandes pescarias, agora é uma zona proibida. Dizem que o acampamento radioativo à beira do lago está abandonado, mas luzes são visíveis por lá à noite. O pescador quer saber se alguém ainda está pescando ali... ou se está tramando algo. Coloque sua máscara de gás e não fique muito tempo.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 3000,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Experience": 4000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Investigue os barcos no acampamento irradiado.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_0_Camping_Site_03.C_0_Camping_Site_03:PersistentLevel.SM_Boat_03_56.StaticMeshComponent0",
+          "FallbackTransform": "-717848.375000,158125.375000,39843.710938|-51.306942,-64.121323,-10.782396|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Boat/Boat_03/SM_Boat_03.SM_Boat_03",
+          "Instance": 3
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_0_Camping_Site_02.C_0_Camping_Site_02:PersistentLevel.SM_Boat_4.StaticMeshComponent0",
+          "FallbackTransform": "-717885.625000,162408.187500,40327.656250|5.866238,109.496521,-177.865021|1.307555,1.307555,1.307555",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Boat/Boat_03/SM_Boat_03.SM_Boat_03",
+          "Instance": 2
+        }
+      ],
+      "MinNeeded": 2,
+      "MaxNeeded": 2,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 50,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -717330.312,
+            "Y": 160005.234,
+            "Z": 40134.633
+          },
+          "SizeFactor": 0.4
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Matar marionetes",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 5,
+      "TargetCharacters": [
+        "Puppet"
+      ]
+    }
+  ]
+}

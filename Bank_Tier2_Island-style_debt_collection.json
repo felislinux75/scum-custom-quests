@@ -1,0 +1,31 @@
+{
+  "AssociatedNpc": "Banker",
+  "Tier": 2,
+  "Title": "Cobrança de dívidas ao estilo das ilhas",
+  "Description": "Um devedor tentou pagar as taxas da sua conta com dinheiro do Monopoly. O banqueiro congelou temporariamente a conta dele – o que, na ilha, significa que ele se tornou um zumbi. Mas isso não é suficiente para o banqueiro. Ele quer ter certeza de que o devedor seja completamente eliminado.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1250,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Boxing",
+          "Experience": 2300
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Matar marionetes",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Elimination",
+      "Amount": 10,
+      "TargetCharacters": [
+        "Puppet"
+      ]
+    }
+  ]
+}

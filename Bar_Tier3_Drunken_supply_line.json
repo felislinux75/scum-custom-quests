@@ -1,0 +1,49 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 3,
+  "Title": "Linha de abastecimento bêbada",
+  "Description": "A bartender contrabandeou bebidas alcoólicas de um complexo TEC1 através de uma antiga tubulação de manutenção. O sistema entrou em colapso — literalmente. Você precisa rastejar pela área irradiada, encontrar o ponto de acesso e verificar se ainda há algum líquido. E ela não está falando do seu cérebro.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2600,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Survival",
+          "Experience": 4000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Examine o tanque de álcool irradiado.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/AbandonedCity_PripyatLike/C_0_AbandonedCity_13a_FireStation_Ext.C_0_AbandonedCity_13a_FireStation_Ext:PersistentLevel.BP_Water_Silo_2.StaticMesh",
+          "FallbackTransform": "-819166.125000,128633.031250,42620.000000|0.000000,-50.000160,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Quarry/Water_Silo/SM_Water_Silo.SM_Water_Silo",
+          "Instance": 2
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -819044.438,
+            "Y": 128685.109,
+            "Z": 42728.145
+          },
+          "SizeFactor": 0.2
+        }
+      ]
+    }
+  ]
+}

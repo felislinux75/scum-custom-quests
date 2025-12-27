@@ -1,0 +1,43 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 2,
+  "Title": "Pulso 0 na chegada",
+  "Description": "O médico raramente fala do seu passado, mas hoje estava pálido. Um antigo colega seu — um cirurgião, presumivelmente morto — foi avistado no terreno baldio. Nem totalmente morto, nem totalmente vivo. Se for verdade, ainda veste o seu antigo uniforme médico. Libertem-no do seu sofrimento.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1000,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Medical",
+          "Experience": 2300
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Mate um zumbi vestido com roupas médicas no hospital.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 1,
+      "TargetCharacters": [
+        "BP_Zombie_Hospital_Fat",
+        "BP_Zombie_Hospital_Muscle",
+        "BP_Zombie_Hospital_Normal"
+      ],
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -621906.812,
+            "Y": -145969.578,
+            "Z": 29662.484
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    }
+  ]
+}

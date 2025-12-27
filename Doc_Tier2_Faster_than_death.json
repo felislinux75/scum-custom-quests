@@ -1,0 +1,55 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 2,
+  "Title": "Mais rápido que a morte",
+  "Description": "Uma sobrevivente alega ter sido atacada por um burro selvagem. O médico não acredita em uma palavra sequer da história, mas afirma que a vítima está um pouco em pânico e precisa urgentemente de algum consolo. A solução é providenciar algo calmante e garantir que não haja mais burros por perto. Cuidar de um animal de quatro patas já é suficiente. De qualquer forma, o ferimento não parece ter sido causado por um burro...",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 880,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Survival",
+          "Experience": 2400
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Colete 1 analgésico.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Painkillers_01",
+            "Painkillers_02",
+            "PainKillers_03"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 1
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Mate um burro, uma cabra, um javali, um cavalo, um lobo ou um urso.",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": false,
+      "Type": "Elimination",
+      "Amount": 1,
+      "TargetCharacters": [
+        "BP_Bear2",
+        "BP_Boar",
+        "BP_Donkey2",
+        "BP_Goat2",
+        "BP_Horse2",
+        "BP_Wolf3"
+      ]
+    }
+  ]
+}

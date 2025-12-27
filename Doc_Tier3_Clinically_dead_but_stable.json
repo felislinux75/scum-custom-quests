@@ -1,0 +1,49 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 3,
+  "Title": "Clinicamente morto, mas estável.",
+  "Description": "Um tiroteio no sul deixou vários corpos para trás — e um deles ainda respira. Em algum lugar. O médico diz que, com o equipamento certo, talvez consigam salvar alguém. Ou pelo menos estancar o sangramento adequadamente. Consigam o equipamento. E é melhor não trazer nenhum paciente novo.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 10000,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Medical",
+          "Experience": 4200
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Colete Lágrimas de Fênix",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": true,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Phoenix_Tears",
+            "Phoenix_Tears_Small"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 1
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Mate 5 marionetes",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 5,
+      "TargetCharacters": [
+        "Puppet"
+      ]
+    }
+  ]
+}

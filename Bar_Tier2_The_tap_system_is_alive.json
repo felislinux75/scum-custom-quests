@@ -1,0 +1,49 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 2,
+  "Title": "O sistema de torneiras está funcionando.",
+  "Description": "A garçonete diz que a cerveja da torneira em Samobor está possuída. Ela chia, borbulha e, supostamente, sussurrou outro dia. Ninguém acredita nela — exceto o médico, que também acredita em burros voadores. Você deve examinar a coisa. Ou exorcizá-la. O que parecer mais óbvio.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1200,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Running",
+          "Experience": 2400
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Examine o sistema de torneiras de chope no bar em Samobor.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_04_Interior_01.D_4_Samobor_04_Interior_01:PersistentLevel.BP_Tavern_02_Interior_2.InstancedStaticMesh1",
+          "FallbackTransform": "335371.500000,365318.000000,21088.875000|0.000000,26.478401,0.000000|1.000992,1.000992,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Bar/Equipment/SM_Beer_Tap_01.SM_Beer_Tap_01",
+          "Instance": 1
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 335415.781,
+            "Y": 365227.688,
+            "Z": 21071.416
+          },
+          "SizeFactor": 0.3
+        }
+      ]
+    }
+  ]
+}

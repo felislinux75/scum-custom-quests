@@ -1,0 +1,51 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 2,
+  "Title": "Em busca de um vislumbre de esperança.",
+  "Description": "O mecânico está trabalhando em um buggy que só se encontra à noite, por acaso. Você precisa trazer um farol funcionando – a marca não importa, contanto que brilhe mais que um isqueiro.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1200,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Aviation",
+          "Experience": 5000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Recolha qualquer farol e leve-o de volta à concessionária.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Cruiser_Headlight_Item",
+            "Dirtbike_Headlight_Item",
+            "Laika_Lights_FrontLeft",
+            "Laika_Lights_FrontRight",
+            "PortableWorkLight",
+            "Rager_Lights_FrontLeft",
+            "Rager_Lights_FrontRight",
+            "RIS_Headlight_Left_Item",
+            "RIS_Headlight_Right_Item",
+            "SportBike_Wind_Deflector_Headlight_Item",
+            "SportBike_Wind_Deflector_Street_Headlight_Item",
+            "Tractor_Door_Hood_Headlight_Left_Item",
+            "Tractor_Door_Hood_Headlight_Right_Item",
+            "WW_Lights_FrontLeft",
+            "WW_Lights_FrontRight"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

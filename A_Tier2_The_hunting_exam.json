@@ -1,0 +1,41 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 2,
+  "Title": "O exame de caça",
+  "Description": "O traficante de armas quer provar seu valor — com um sucesso impressionante na caçada. Você deve abater um animal selvagem para ele, para que ele possa alegar posteriormente que foi ele quem o matou. Moralmente questionável? Sim. Mas o pagamento é bom.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Cooking",
+          "Experience": 2400
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Mate um animal com a arma de sua escolha.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 1,
+      "TargetCharacters": [
+        "BP_Bear2",
+        "BP_Crow",
+        "BP_Seagull",
+        "BP_Boar",
+        "BP_Chicken",
+        "BP_Deer2",
+        "BP_Donkey2",
+        "BP_Goat2",
+        "BP_Horse2",
+        "BP_Rabbit2",
+        "BP_Wolf3"
+      ]
+    }
+  ]
+}

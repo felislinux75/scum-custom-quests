@@ -1,0 +1,50 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 2,
+  "Title": "Charutão explosivo",
+  "Description": "Essa missão é só para corajosos, exploda zumbis bombas na região do bunker subterraneo de D4.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2000,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Demolition",
+          "Experience": 2000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Weapon_RPG7",
+          "Price": 25000,
+          "Amount": 1,
+          "Fame": 350,
+          "AllowExcluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Mate 1 zumbi bomba dentro do bunker subterraneo de D4.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 1,
+      "TargetCharacters": [
+        "BP_Zombie_SuicideVest",
+      ],
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 510086.75,
+            "Y": 572988.375,
+            "Z": 8091.662
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "AssociatedNpc": "Harbourmaster",
+  "Tier": 1,
+  "Title": "Peixarada 01.",
+  "Description": "O estoque de peixes esta baixo e quero evitar a fadiga, me arrume alguns peixes.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 750,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Survival",
+          "Experience": 500
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Mostre seu talento na pesca, me traga  5 peixes quaisquer.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Fish_Sardine",
+            "Fish_Dentex",
+            "Fish_Orata",
+			"Fish_Tuna"
+          ],
+          "RequiredNum": 5
+        }
+      ]
+    }
+  ]
+}

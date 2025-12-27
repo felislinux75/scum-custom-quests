@@ -1,0 +1,50 @@
+{
+  "AssociatedNpc": "Banker",
+  "Tier": 2,
+  "Title": "Assinar sob estresse",
+  "Description": "O banqueiro quer assinar uma pilha de notas promissórias – em triplicado, claro. Infelizmente, todas as canetas utilizáveis ​​desapareceram. Você deveria receber um conjunto completo de canetas imediatamente.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Engineering",
+          "Experience": 2600
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Reúna caneta, papel e lupa.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Pen"
+          ],
+          "RequiredNum": 1
+        },
+        {
+          "AcceptedItems": [
+            "Paper"
+          ],
+          "RequiredNum": 1
+        },
+        {
+          "AcceptedItems": [
+            "Magnifying_Glass",
+            "Magnifying_Glass1"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

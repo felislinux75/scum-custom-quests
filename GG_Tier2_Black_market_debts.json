@@ -1,0 +1,31 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 2,
+  "Title": "dívidas do mercado negro",
+  "Description": "O comerciante se envolveu em negócios escusos e agora um grupo de credores está à sua porta. Antes que o matem, exigem que ele elimine um homem-bomba para aumentar a segurança de seus estabelecimentos. Ele precisa da sua ajuda, pois não tem vocação para esse tipo de situação.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1200,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Demolition",
+          "Experience": 2800
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Elimine 1 fantoche suicida",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 1,
+      "TargetCharacters": [
+        "BP_Zombie_SuicideVest"
+      ]
+    }
+  ]
+}

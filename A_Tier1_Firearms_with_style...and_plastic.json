@@ -1,0 +1,41 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 1,
+  "Title": "Armas de fogo com estilo... e plástico.",
+  "Description": "Um cliente quer andar por aí com um silenciador "como nos filmes" – mas, claro, ele não tem nada adequado. O vendedor de armas quer mostrar a ele como é na realidade – pelo menos se quiser ganhar dinheiro fácil.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 500,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Survival",
+          "Experience": 2000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Consiga um silenciador improvisado.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "WeaponSuppressor_ImprovisedBottle_Grey",
+            "WeaponSuppressor_ImprovisedBottle_White",
+            "WeaponSuppressor_ImprovisedCan_Grey",
+            "WeaponSuppressor_ImprovisedCan_Red",
+            "WeaponSuppressor_ImprovisedOilCan_01"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

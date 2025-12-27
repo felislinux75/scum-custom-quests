@@ -1,0 +1,55 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 3,
+  "Title": "Lembre-se disso",
+  "Description": "Algumas encomendas são um tanto incomuns, mas o vendedor geralmente não faz perguntas. Um cliente, por exemplo, encomendou itens questionáveis ​​que precisam ser entregues o mais rápido possível.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Medical",
+          "Experience": 3300
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Mate os fantoches e recolha as suas orelhas.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 6,
+      "TargetCharacters": [
+        "Puppet"
+      ]
+    },
+    {
+      "TrackingCaption": "Faça dois colares de orelha e leve também uma caneta.",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "2_pieces_Ear_Necklace",
+            "4_pieces_Ear_Necklace",
+            "6_pieces_Ear_Necklace"
+          ],
+          "RequiredNum": 2
+        },
+        {
+          "AcceptedItems": [
+            "Pen"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

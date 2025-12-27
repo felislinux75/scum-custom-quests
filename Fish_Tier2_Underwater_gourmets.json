@@ -1,0 +1,39 @@
+{
+  "AssociatedNpc": "Harbourmaster",
+  "Tier": 2,
+  "Title": "Gourmets subaquáticos",
+  "Description": "Um cliente gourmet de gosto duvidoso enviou ao pescador uma lista de desejos estranha. Nada de peixe comum — só o melhor, disse ele. Se o sujeito estava realmente cozinhando ou preparando algum tipo de ritual, ninguém queria saber. Você reúne os ingredientes — e não faz perguntas. Ele tem praticamente tudo o que precisa, exceto um peixe de água salgada.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1300,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Cooking",
+          "Experience": 2700
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Pegue um Dentex, uma Dorata ou um Atum",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Fish_Dentex",
+            "Fish_Orata",
+            "Fish_Tuna"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

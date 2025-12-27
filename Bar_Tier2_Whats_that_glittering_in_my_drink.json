@@ -1,0 +1,38 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 2,
+  "Title": "O que é aquilo brilhando na minha bebida?",
+  "Description": "Um cliente começou a assobiar como um bule de chá enquanto bebia. Descobriu-se que alguém estava usando pontas de flecha de metal como cubos de gelo. O barman quer apresentar essa ideia como um novo substituto reutilizável para cubos de gelo – e você pode ir procurá-los.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1050,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Archery",
+          "Experience": 2300
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Colecione ou fabrique pontas de flecha de metal",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Bundle_Of_Metal_Tips"
+          ],
+          "RequiredNum": 2,
+          "MinAcceptedItemUses": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 3,
+  "Title": "Submarinos escondidos",
+  "Description": "O traficante de armas tem uma teoria: os mechs têm pontos fracos — e uma memória terrível para códigos de acesso antigos. Você precisa reativar um terminal na Base Naval que supostamente registra os dados de movimento deles. Pena que pelo menos um mech ainda esteja patrulhando por lá.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 4500,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Stealth",
+          "Experience": 4200
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Reative o antigo terminal na Base Naval!",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_4_Military_Base_Underground.A_4_Military_Base_Underground:PersistentLevel.SM_Control_Panel_4.StaticMeshComponent0",
+          "FallbackTransform": "467056.125000,-563425.875000,781.653809|0.000000,-89.999657,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Workshoop/ControlPanel/SM_Control_Panel_01.SM_Control_Panel_01",
+          "Instance": 4
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 0,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 466916.094,
+            "Y": -564298.062,
+            "Z": 818.804
+          },
+          "SizeFactor": 0.5
+        }
+      ]
+    }
+  ]
+}

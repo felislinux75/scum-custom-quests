@@ -1,0 +1,82 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 3,
+  "Title": "Que pintão explosivo",
+  "Description": "Essa missão é só para corajosos, exploda zumbis bombas na região do bunker subterraneo de D4.",
+  "TimeLimitHours": 48.0,
+  "Reward Pool": [
+    {
+      "CurrencyNormal": 4000,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Demolition",
+          "Experience": 2000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": " Cal_40_PG-7M",
+          "Price": 2000,
+          "Amount": 1,
+          "Fame": 350,
+          "Allow Excluded": true
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Mate 3 zumbi bomba dentro do bunker subterrario de D4.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 3,
+      "TargetCharacters": [
+        "BP_Zombie_SuicideVest"
+      ],
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 510086.75,
+            "Y": 572988.375,
+            "Z": 8091.662
+          },
+          "SizeFactor": 1.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Interact with objects",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D4_Airport_Zeljava.D4_Airport_Zeljava:PersistentLevel.SM_Locker_02b10.StaticMeshComponent0",
+          "FallbackTransform": "517384.500000,570240.000000,7316.271973|0.000000,168.299561,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Prison/Objects/PowerBoxes/PowerBox_02/SM_PowerBox_02.SM_PowerBox_02"
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D4_Airport_Zeljava.D4_Airport_Zeljava:PersistentLevel.SM_Locker_02b11.StaticMeshComponent0",
+          "FallbackTransform": "516723.375000,570070.250000,7316.271973|0.000000,-141.700333,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Prison/Objects/PowerBoxes/PowerBox_02/SM_PowerBox_02.SM_PowerBox_02"
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D4_Airport_Zeljava.D4_Airport_Zeljava:PersistentLevel.SM_Locker_02b8.StaticMeshComponent0",
+          "FallbackTransform": "517069.750000,568277.250000,7316.271973|0.000000,-11.700427,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Prison/Objects/PowerBoxes/PowerBox_02/SM_PowerBox_02.SM_PowerBox_02"
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D4_Airport_Zeljava.D4_Airport_Zeljava:PersistentLevel.SM_Locker_02b9.StaticMeshComponent0",
+          "FallbackTransform": "517855.250000,568428.250000,7316.271973|0.000000,38.299633,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Prison/Objects/PowerBoxes/PowerBox_02/SM_PowerBox_02.SM_PowerBox_02"
+        }
+      ],
+      "MinNeeded": 3,
+      "MaxNeeded": 3,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 6
+    }
+  ]
+}

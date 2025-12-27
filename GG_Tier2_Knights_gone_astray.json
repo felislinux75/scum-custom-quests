@@ -1,0 +1,81 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 2,
+  "Title": "Cavaleiros que se perderam",
+  "Description": "Um cliente do mercador sofreu um golpe na cabeça e, desde então, acredita estar vivendo na Idade Média e se considera um cavaleiro. Mesmo sabendo que provavelmente não sobreviverá muito tempo na ilha, o mercador quer conseguir uma espada para ele e levá-lo a uma das ruínas de um antigo castelo.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "MeleeWeapons",
+          "Experience": 3000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Colecione uma espada de metal ou uma espada medieval.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "1H_Medieval_Sword",
+            "1H_Metal_Sword"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 10.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Leve a espada até uma das ruínas do castelo.",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_2_Castle_Ruins.D_2_Castle_Ruins:PersistentLevel.SM_box_01_5pcs_Warehouse_778.StaticMeshComponent0",
+          "FallbackTransform": "-63743.429688,343367.187500,86104.484375|0.000000,-8.708536,0.000000|1.000999,1.000999,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Country/SM_box_01_5pcs_Warehouse.SM_box_01_5pcs_Warehouse",
+          "Instance": 778
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B3_Castle_Ruins.B3_Castle_Ruins:PersistentLevel.SM_WorkshopCrate_Pile_1.StaticMeshComponent0",
+          "FallbackTransform": "48573.312500,1003.453125,45633.000000|0.000000,50.107628,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Crate/SM_WorkshopCrate_Pile_03.SM_WorkshopCrate_Pile_03",
+          "Instance": 1
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": false,
+      "WorldMarkerShowDistance": 500,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -63656.852,
+            "Y": 343497.094,
+            "Z": 86196.688
+          },
+          "SizeFactor": 0.4
+        },
+        {
+          "Location": {
+            "X": 49190.539,
+            "Y": 428.269,
+            "Z": 45748.262
+          },
+          "SizeFactor": 0.4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "AssociatedNpc": "Banker",
+  "Tier": 1,
+  "Title": "Métodos de pagamento alternativos",
+  "Description": "O banqueiro confiscou uma caixa de cigarros – estavam sendo anunciados como a moeda do futuro. Infelizmente, um dos seus estagiários fumou todos de uma vez. Agora você precisa pegar mais antes que alguém tente pagar com cogumelos.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 500,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Thievery",
+          "Experience": 1800
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Pegue um maço de cigarros",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Cigarettes1",
+            "Cigarettes"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 2,
+  "Title": "Um manual de instruções teria sido útil.",
+  "Description": "Um recém-chegado improvisou uma seringa — com uma caneta esferográfica, arame e uma lata de refrigerante. O médico ficou impressionado. Depois, desmaiou. Agora ele precisa de equipamentos novos e funcionais. E, por favor, nada de refrigerante.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1120,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Engineering",
+          "Experience": 2500
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Coletar seringas",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Syringe"
+          ],
+          "RequiredNum": 2
+        }
+      ]
+    }
+  ]
+}

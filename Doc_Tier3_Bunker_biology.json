@@ -1,0 +1,67 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 3,
+  "Title": "Biologia do bunker",
+  "Description": "No nordeste, um bunker foi evacuado após uma queda de energia – a TEC1 suspeita de infestação por mofo causando alucinações. O médico quer zerar o contador Geiger e reiniciar o sistema de filtragem de ar. Se você ouvir vozes de repente: ignore-as.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 7500,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Stealth",
+          "Experience": 3900
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Adquira um contador Geiger.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": true,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Geiger_Counter_Improvised",
+            "Geiger_Counter_Analogue"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 1.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Verifique se há mofo no bunker.",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/TV_Base_D_1_Abandoned.TV_Base_D_1_Abandoned:PersistentLevel.SM_Debries_Pile_B_11.StaticMeshComponent0",
+          "FallbackTransform": "-546374.312500,545325.187500,80099.132812|0.000000,-64.792099,0.000000|1.384194,1.384194,0.853249",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/TV_Bunker/0_9_TV_Bunker/Objects/Debris/Concrete_Debris/SM_Debries_Pile_C_01.SM_Debries_Pile_C_01",
+          "Instance": 11
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -546265.5,
+            "Y": 545340.438,
+            "Z": 80203.031
+          },
+          "SizeFactor": 0.3
+        }
+      ]
+    }
+  ]
+}

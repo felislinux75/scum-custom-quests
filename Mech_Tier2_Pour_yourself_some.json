@@ -1,0 +1,108 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 2,
+  "Title": "Sirva-se de um pouco",
+  "Description": "O mecânico acredita piamente que uma bomba de gasolina velha e enferrujada, no fim do mundo, ainda vende gasolina premium — supostamente da época em que se usavam aditivos de chumbo e os motores não morriam com a menor falha. O certo é abrir a bomba e encher um galão. Se a gasolina realmente flui ou apenas brilha, só o tempo dirá.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1400,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Motorcycle",
+          "Experience": 2500
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Pegue um galão de gasolina",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": true,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Gasoline_Canister_Small",
+            "Gasoline_Canister"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Vá a um dos postos de gasolina sinalizados e abasteça.",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": false,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_0_Gas_Station_Cont.B_0_Gas_Station_Cont:PersistentLevel.BP_Gas_Station_3.SM_GasPump_01_HISMA",
+          "FallbackTransform": "-740163.187500,-270628.593750,17047.734375|0.000000,62.980568,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Gas_station/Objects/SM_GasPump_01.SM_GasPump_01",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Gas_Station_Cont_01.Z_3_Gas_Station_Cont_01:PersistentLevel.BP_Gas_Station_01_RW_1.SM_GasPump_01_HISMA",
+          "FallbackTransform": "101610.117188,-757352.437500,1015.422485|0.000000,100.000023,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Gas_station/Objects/SM_GasPump_01.SM_GasPump_01",
+          "Instance": 4
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_4_Preko_05.B_4_Preko_05:PersistentLevel.BP_Stone_Gas_Station_01_EXT_0.Gas_Station_01_ISMA_0",
+          "FallbackTransform": "504119.593750,-169200.437500,205.514160|0.000000,156.653030,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Gas_station/Objects/SM_GasPump_01.SM_GasPump_01",
+          "Instance": 1
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_1_Gas_Station.C_1_Gas_Station:PersistentLevel.BP_Cont_Gas_Station_01_EXT_CHILD_01_0.SM_GasPump_01_HISMA",
+          "FallbackTransform": "-506793.687500,307023.250000,54283.847656|0.000000,131.853912,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Gas_station/Objects/SM_GasPump_01.SM_GasPump_01",
+          "Instance": 2
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": false,
+      "WorldMarkerShowDistance": 50,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -740277.25,
+            "Y": -270538.969,
+            "Z": 17130.17
+          },
+          "SizeFactor": 0.3
+        },
+        {
+          "Location": {
+            "X": 101497.367,
+            "Y": -757383.5,
+            "Z": 1106.457
+          },
+          "SizeFactor": 0.3
+        },
+        {
+          "Location": {
+            "X": 503973.344,
+            "Y": -169223.609,
+            "Z": 287.178
+          },
+          "SizeFactor": 0.3
+        },
+        {
+          "Location": {
+            "X": -506904.0,
+            "Y": 307066.688,
+            "Z": 54381.648
+          },
+          "SizeFactor": 0.3
+        }
+      ]
+    }
+  ]
+}

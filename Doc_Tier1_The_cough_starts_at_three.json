@@ -1,0 +1,40 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 1,
+  "Title": "A tosse começa às três",
+  "Description": "Alguém está com dor de estômago, torceu a perna e está tossindo sangue — tudo ao mesmo tempo. O médico? Está jogando cartas com o mecânico e observando os sintomas de longe. Então, é a sua vez. Boa sorte. Ou faça um testamento.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 750,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Medical",
+          "Experience": 1800
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Colete 1x Carvão Ativado",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "ActivatedCharcoal_03",
+            "ActivatedCharcoal_02",
+            "ActivatedCharcoal_01"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 1
+        }
+      ]
+    }
+  ]
+}

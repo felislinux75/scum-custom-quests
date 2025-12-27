@@ -1,0 +1,38 @@
+{
+  "AssociatedNpc": "Banker",
+  "Tier": 1,
+  "Title": "Burocracia e manchas de sangue",
+  "Description": "O banqueiro quer reconstruir as transações da semana passada – infelizmente, seus documentos foram arruinados por um cliente ensanguentado. Agora ele precisa de papel novo para sua próxima tentativa de contabilidade. E desta vez, por favor, sem nenhum vestígio de órgãos.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 500,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Survival",
+          "Experience": 1600
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Colecione um diário",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Diary"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 5
+        }
+      ]
+    }
+  ]
+}

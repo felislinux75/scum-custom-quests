@@ -1,0 +1,52 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 3,
+  "Title": "Isso ainda é considerado bagagem de mão?",
+  "Description": "Todo mundo quer, e o comerciante está com pouco estoque de mochilas de trilha. Traga mais unidades para o depósito dele.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1400,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Thievery",
+          "Experience": 4000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Adquira uma mochila de caminhada.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Hiking_Backpack_01_01",
+            "Hiking_Backpack_01_02",
+            "Hiking_Backpack_01_03",
+            "Hiking_Backpack_01_04",
+            "Hiking_Backpack_01_05",
+            "Hiking_Backpack_Tyrone",
+            "Military_Backpack_02_01",
+            "Military_Backpack_02_03",
+            "Military_Backpack_02_02",
+            "Military_Backpack_02_04",
+            "Military_Backpack_02_05",
+            "Military_Backpack_02_06",
+            "Military_Backpack_02_07",
+            "Military_Backpack_02_08",
+            "Police_Backpack_02"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 50.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "AssociatedNpc": "Banker",
+  "Tier": 2,
+  "Title": "Me da um gas",
+  "Description": "O banqueiro esta abusando de enlatados, quer fazer uma comida de fogão, mas como ele é mão de vaca quer economizar no Gas, pegue algum galão de gas vazio ou cheio e traga pra este pão duro.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 500,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Cooking",
+          "Experience": 1000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Pegue um galão de Gas",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "GasTank",
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 1
+        }
+      ]
+    }
+  ]
+}

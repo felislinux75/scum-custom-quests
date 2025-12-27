@@ -1,0 +1,48 @@
+{
+  "AssociatedNpc": "Harbourmaster",
+  "Tier": 2,
+  "Title": "Os lugares antigos",
+  "Description": "O pescador às vezes fala dos bons tempos antigos — quando os peixes ainda mordiam a isca e a concorrência não usava equipamentos de pesca profissionais. Ele quer saber se seu lugar favorito daquela época ainda é acessível. E se alguma coisa está acontecendo por lá agora.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1000,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Running",
+          "Experience": 2600
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Examine a antiga passarela no setor C1.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Landscape_C_1_2c.Landscape_C_1_2c:PersistentLevel.Dock_Tire_BigHISMA.HierarchicalInstancedStaticMesh",
+          "FallbackTransform": "-411862.062500,137028.406250,39480.992188|0.000000,55.971958,0.000000|1.001000,1.060957,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Dock/Dock_Tire/Dock_Tire_Big.Dock_Tire_Big"
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 80,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -411642.719,
+            "Y": 136826.703,
+            "Z": 39640.094
+          },
+          "SizeFactor": 0.3
+        }
+      ]
+    }
+  ]
+}

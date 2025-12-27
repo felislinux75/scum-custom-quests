@@ -1,0 +1,41 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 1,
+  "Title": "Hora feliz, geladeira triste",
+  "Description": "A bartender perdeu todo o estoque de bebidas em um jogo de bebida contra o mecânico. Ela jura que foi para animar o pessoal. Agora ela precisa de mais bebida — e você é mais barato que um serviço de entrega de helicóptero.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 500,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Cooking",
+          "Experience": 1700
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Recolha uma garrafa de bebida alcoólica forte, pelo menos meio cheia.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Vodka",
+            "Absinthe",
+            "Tequila",
+            "Whiskey"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemResourceRatio": 50.0
+        }
+      ]
+    }
+  ]
+}

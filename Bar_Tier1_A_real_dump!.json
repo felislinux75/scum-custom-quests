@@ -1,0 +1,57 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 1,
+  "Title": "Um verdadeiro lixo!",
+  "Description": "A bartender está tentando preparar um coquetel saudável. Infelizmente, ela confundiu as vitaminas com tequila. Agora, faltam alguns ingredientes para o seu Dose Detox Deluxe. Com certeza você consegue encontrar alguma fruta, não é?",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 400,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Cooking",
+          "Experience": 1600
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Colete frutas",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Banana",
+            "CantaloupeMelon",
+            "Watermelon",
+            "Date",
+            "GrapeFruit",
+            "Kiwi",
+            "Lemon",
+            "Lime",
+            "Mango",
+            "Orange",
+            "Peach",
+            "Pear",
+            "Pineapple",
+            "Tangerine",
+            "Apple",
+            "Apple_2",
+            "Wild_Cherry",
+            "Blackberry",
+            "Wild_Strawberry",
+            "Mulberry"
+          ],
+          "RequiredNum": 3,
+          "MinAcceptedItemHealth": 1.0
+        }
+      ]
+    }
+  ]
+}

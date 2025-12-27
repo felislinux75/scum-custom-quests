@@ -1,0 +1,37 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 1,
+  "Title": "Hackeando cartões",
+  "Description": "O armeiro esta bolando uma forma de hackear cartões de bunker abandonado, traga alguns pra fazer engenharia reserva",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 3000
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Thievery",
+          "Experience": 1500
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Obtenha 10 cartões azul.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "KeyCardBunker_Level01",
+          ],
+          "RequiredNum": 10
+        }
+      ]
+    }
+  ]
+}

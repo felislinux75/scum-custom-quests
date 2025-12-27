@@ -1,0 +1,39 @@
+{
+  "AssociatedNpc": "Banker",
+  "Tier": 1,
+  "Title": "Som da pesada",
+  "Description": "O banco decidiu patrocinar uma festa… mas esqueceu o detalhe mais importante: não tem som! Em sucatas ou caixas provavel que consiga aqueles aparalhos de som que niguem quer pega um e manda pra gente. A festa só começa quando o banco parar de fazer silêncio!",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 500,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Engineering",
+          "Experience": 500
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Pegue algum aparelho de som, pode ser a bombox branca ou o radio verde",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "BoomBox_01",
+            "Radio"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 1
+        }
+      ]
+    }
+  ]
+}

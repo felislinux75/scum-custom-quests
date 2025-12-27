@@ -1,0 +1,38 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 1,
+  "Title": "Isto não é uma bebida energética.",
+  "Description": "Um dos recém-chegados engoliu acidentalmente um pouco de desinfetante – “era um frasco com uma caveira bem legal”. O médico gostaria de mais para emergências. E um curso de treinamento para idiotas. Mas comecem pelo desinfetante.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 750,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Medical",
+          "Experience": 1800
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Colete 1x Álcool Isopropílico",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Isopropyl_alcohol"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 1
+        }
+      ]
+    }
+  ]
+}

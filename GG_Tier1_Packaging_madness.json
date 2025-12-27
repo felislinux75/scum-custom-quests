@@ -1,0 +1,53 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 1,
+  "Title": "Loucura das embalagens",
+  "Description": "Chegou uma remessa que precisa ser enviada, mas o fornecedor ficou sem material de embalagem. Você precisa encontrar algum – ou improvisar, se necessário. O importante é que o cliente não receba uma lata amassada.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 500,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Survival",
+          "Experience": 2000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Reúna 4 pedaços de tecido, 1 corda e 1 pedaço de fita adesiva.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Improvised_Plant_rope",
+            "Improvised_rope",
+            "Rope1"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 5
+        },
+        {
+          "AcceptedItems": [
+            "Rag_Stripes"
+          ],
+          "RequiredNum": 4
+        },
+        {
+          "AcceptedItems": [
+            "Duct_Tape"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 5
+        }
+      ]
+    }
+  ]
+}

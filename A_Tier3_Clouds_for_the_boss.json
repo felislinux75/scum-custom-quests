@@ -1,0 +1,48 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 3,
+  "Title": "Nuvens para o chefe",
+  "Description": "O traficante de armas quer causar uma impressão ainda maior na próxima reunião do Posto Avançado. Ele teve uma ideia: alguém joga algumas granadas de fumaça e, em seguida, ele surge da nuvem de fumaça usando óculos escuros. Tudo isso acompanhado de uma música bacana. Ele pagará bem se você conseguir entregar tudo rapidamente.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 3000,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Demolition",
+          "Experience": 3333
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Pegue duas granadas de fumaça e algo para tocar música. Um aparelho de som portátil ou um rádio devem servir.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Smoke_Grenade",
+            "Smoke_Grenade_Green",
+            "Smoke_Grenade_Red",
+            "Smoke_Grenade_Violet",
+            "Smoke_Grenade_Yellow"
+          ],
+          "RequiredNum": 2
+        },
+        {
+          "AcceptedItems": [
+            "BoomBox_01",
+            "Radio"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

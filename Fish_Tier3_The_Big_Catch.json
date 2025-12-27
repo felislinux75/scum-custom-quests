@@ -1,0 +1,65 @@
+{
+  "AssociatedNpc": "Harbourmaster",
+  "Tier": 3,
+  "Title": "A Grande Pesca",
+  "Description": "A lenda conta a história de um antigo sujeito — gigantesco, com o corpo todo coberto de cicatrizes e uma barbatana tão comprida quanto um antebraço. O pescador o chama de Velho. Ninguém jamais o capturou. Mas seus rastros estão lá… e você deve preservá-los. Para a história. Ou para a panela.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2100,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Survival",
+          "Experience": 3800
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Investigue o local de pesca marcado.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Landscape_B_0_2c.Landscape_B_0_2c:PersistentLevel.SM_doubleBenchD1HISMA.HierarchicalInstancedStaticMesh",
+          "FallbackTransform": "-682142.187500,-174083.000000,16244.017578|0.000000,-4.366091,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/oldBenchPack/Meshes/SM_doubleBenchD1.SM_doubleBenchD1",
+          "Instance": 3
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -681979.812,
+            "Y": -174091.797,
+            "Z": 16336.113
+          },
+          "SizeFactor": 0.4
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Pegue um lúcio",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Fish_Pike"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

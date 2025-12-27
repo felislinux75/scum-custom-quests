@@ -1,0 +1,39 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 3,
+  "Title": "Preparativos para a festa",
+  "Description": "O dono da loja foi convidado para uma festa, e todos deveriam trazer algo para que todos tivessem o que comer. Ele foi escolhido aleatoriamente para ficar responsável pela área de fumantes. Mas ele não queria trazer apenas cigarros comuns...",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1800,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Farming",
+          "Experience": 5000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Arranje uns baseados",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Joint01",
+            "Spliff"
+          ],
+          "RequiredNum": 3,
+          "RandomAdditionalRequiredNum": 2
+        }
+      ]
+    }
+  ]
+}

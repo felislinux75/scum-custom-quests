@@ -1,0 +1,59 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 3,
+  "Title": "Bem lá no fundo, bem escondido",
+  "Description": "Uma caixa contendo peças raras de veículos está supostamente escondida em um antigo poço de mina – pelo menos, é o que afirma um negociante nervoso, que estava lá não por vontade própria. O mecânico precisa desesperadamente dessas peças, mas o local é considerado perigoso. Você deve ir até lá, recuperar a caixa e, já que está lá embaixo, eliminar alguns dos habitantes locais barulhentos que se instalaram no local.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 3600,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Camouflage",
+          "Experience": 4000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Vá até o poço da mina e encontre o baú.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_1_CoalMine.D_1_CoalMine:PersistentLevel.SM_Crate_Stable_59.StaticMeshComponent0",
+          "FallbackTransform": "-454916.000000,424504.437500,89720.554688|0.000000,-46.100624,-0.153656|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Crate/SM_Crate_Stable_01.SM_Crate_Stable_01",
+          "Instance": 59
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 0,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -454875.625,
+            "Y": 424396.688,
+            "Z": 89813.289
+          },
+          "SizeFactor": 0.5
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Defeat at least 5 Puppets while you're there.",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 5,
+      "TargetCharacters": [
+        "Puppet"
+      ]
+    }
+  ]
+}

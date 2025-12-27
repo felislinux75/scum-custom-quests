@@ -1,0 +1,59 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 2,
+  "Title": "Clique. Estalo. Silêncio.",
+  "Description": "Uma estranha mensagem de rádio tem circulado há dias: Clique. Claque. Pausa. Depois, de novo. Nenhuma palavra, apenas esse sinal rítmico. Alguns dizem que é um código. Outros acham que é um maluco com munição demais. O Armeiro quer que você investigue — e silencie esse bip de uma vez por todas.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Sniping",
+          "Experience": 2800
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Elimine um NPC equipado",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 1,
+      "TargetCharacters": [
+        "ArmedNPC"
+      ]
+    },
+    {
+      "TrackingCaption": "Sabotar o rádio",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Rogoznica_03.Z_3_Rogoznica_03:PersistentLevel.SM_radiostation_117.StaticMeshComponent0",
+          "FallbackTransform": "157452.000000,-703696.250000,1162.669922|0.000000,-144.173508,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Military/MilitaryFieldCamp/Meshes/SM_radiostation_4.SM_radiostation_4",
+          "Instance": 3
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 157517.516,
+            "Y": -703756.812,
+            "Z": 1179.545
+          },
+          "SizeFactor": 0.3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 3,
+  "Title": "Interface humana",
+  "Description": "Um prisioneiro achou que uma motosserra era a ferramenta perfeita para remover seu chip de compressão. Agora ele perdeu metade do ombro – e a motosserra, ensanguentada, continua jogada na mata. O médico quer guardar uma motosserra dessas para futuras cirurgias e pede que você verifique se há outro ombro no local da operação.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2900,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Awareness",
+          "Experience": 3600
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Cigarettes",
+          "Price": 5,
+          "Amount": 2,
+          "Fame": 1
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Pegue uma motosserra",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Chainsaw"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemHealth": 5.0
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Examine o local da cirurgia.",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": false,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_1_TV_Base_Entrance.A_1_TV_Base_Entrance:PersistentLevel.SM_Dead_Puppet_For_Bunkers_06_188.StaticMeshComponent0",
+          "FallbackTransform": "-351026.781250,-471192.750000,3672.738770|1.331183,-157.611969,8.719104|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Zombies/Dead_Puppets_For_Bunkers/Dead_Puppet_06/SM_Dead_Puppet_For_Bunkers_06.SM_Dead_Puppet_For_Bunkers_06",
+          "Instance": 188
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -351036.5,
+            "Y": -471290.938,
+            "Z": 3774.393
+          },
+          "SizeFactor": 0.2
+        }
+      ]
+    }
+  ]
+}

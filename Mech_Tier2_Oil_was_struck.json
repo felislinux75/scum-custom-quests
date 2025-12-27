@@ -1,0 +1,45 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 2,
+  "Title": "O petróleo foi descoberto.",
+  "Description": "Embora os veículos na ilha não estejam exatamente nas melhores condições e raramente tenham um histórico completo de manutenção, a troca de óleo às vezes é essencial. No entanto, os filtros de óleo são escassos e as entregas são pouco frequentes. Se você conseguir três filtros de óleo, o mecânico estará disposto a recompensá-lo e oferecer um bom desconto em um macaco hidráulico.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1350,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Driving",
+          "Experience": 3000
+        }
+      ],
+      "TradeDeals": [
+        {
+          "Item": "Car_Jack",
+          "Price": 350,
+          "Amount": 1,
+          "Fame": 0
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Recolha 3 filtros de óleo.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Oil_Filter"
+          ],
+          "RequiredNum": 3
+        }
+      ]
+    }
+  ]
+}

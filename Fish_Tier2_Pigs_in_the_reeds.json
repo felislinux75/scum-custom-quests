@@ -1,0 +1,31 @@
+{
+  "AssociatedNpc": "Harbourmaster",
+  "Tier": 2,
+  "Title": "Porcos nos juncos",
+  "Description": "Um javali selvagem costuma rondar os melhores pontos de pesca – e não só está espantando os peixes, como também já roubou dois baldes. O pescador não aguenta mais. É preciso controlar a população desses animais. E é melhor não trazer nenhuma sujeira de volta.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Archery",
+          "Experience": 3000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Matar um javali",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Elimination",
+      "Amount": 1,
+      "TargetCharacters": [
+        "BP_Boar"
+      ]
+    }
+  ]
+}

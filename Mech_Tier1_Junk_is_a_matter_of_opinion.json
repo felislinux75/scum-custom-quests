@@ -1,0 +1,42 @@
+{
+  "AssociatedNpc": "Mechanic",
+  "Tier": 1,
+  "Title": "Lixo é uma questão de opinião.",
+  "Description": "O mecânico jura que conseguiria criar uma obra-prima a partir de qualquer pedaço de chapa metálica amassada – se não estivesse sempre sem matéria-prima. Você deveria conseguir mais para ele antes que ele comece a desmontar a própria bancada.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 500,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Thievery",
+          "Experience": 1500
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Recolha a sucata metálica e entregue as peças ao revendedor.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Metal_Scrap_01",
+            "Metal_Scrap_02",
+            "Metal_Scrap_03",
+            "Metal_Scrap_04",
+            "Metal_Scrap_05"
+          ],
+          "RequiredNum": 8,
+          "RandomAdditionalRequiredNum": 3
+        }
+      ]
+    }
+  ]
+}

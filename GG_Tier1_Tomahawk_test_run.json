@@ -1,0 +1,37 @@
+{
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 1,
+  "Title": "Teste de execução do Tomahawk",
+  "Description": "O comerciante de artigos gerais tem um cliente com... digamos, hobbies incomuns. O cara quer um machado — não para cortar, mas para arremessar. E não um daqueles de catálogo, mas algo com aparência rústica e que machuque. Você constrói a coisa. E é melhor garantir que ela voe em linha reta.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 500,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "MeleeWeapons",
+          "Experience": 1800
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Construa um tomahawk improvisado",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "1H_Improvised_Tomahawk"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

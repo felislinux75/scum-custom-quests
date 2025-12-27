@@ -1,0 +1,65 @@
+{
+  "AssociatedNpc": "Armorer",
+  "Tier": 2,
+  "Title": "Última bala para Gregor",
+  "Description": "Um veterano de guerra deixou um pedido simbólico ao vendedor de armas: ele quer voltar ao seu antigo campo de tiro – com a arma com a qual aprendeu a atirar. Infelizmente, a área está repleta de perigos. Você deve assegurar a área e posicionar a arma.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1500,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Handgun",
+          "Experience": 2000
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Obtenha uma pistola improvisada.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Weapon_Improvised_Handgun"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Isole a área ao redor do estande de tiro e posicione a arma.",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_2_Shooting_Range_01.B_2_Shooting_Range_01:PersistentLevel.SM_Marketplace_Stand_01HISMA.HierarchicalInstancedStaticMesh",
+          "FallbackTransform": "-219514.671875,-112835.851562,36502.082031|0.000000,4.875109,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Marketplace/Stands/SM_Marketplace_Stand_01.SM_Marketplace_Stand_01",
+          "Instance": 4
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 0,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": -219424.188,
+            "Y": -112807.719,
+            "Z": 36596.812
+          },
+          "SizeFactor": 0.5
+        }
+      ]
+    }
+  ]
+}

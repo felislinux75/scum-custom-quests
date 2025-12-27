@@ -1,0 +1,37 @@
+{
+  "AssociatedNpc": "Doctor",
+  "Tier": 2,
+  "Title": "Argumentos convincentes",
+  "Description": "Alguns pacientes quebraram as mãos numa briga. O médico disse: "Se vão brigar, pelo menos façam isso com estilo e com bandagens". Vocês sabem o que isso significa: tragam mais suprimentos médicos antes que comecem a improvisar talas com casca de árvore.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1000,
+      "Fame": 10,
+      "Skills": [
+        {
+          "Skill": "Boxing",
+          "Experience": 2200
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Recolha curativos de emergência estéreis.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": false,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Emergency_bandage"
+          ],
+          "RequiredNum": 4
+        }
+      ]
+    }
+  ]
+}

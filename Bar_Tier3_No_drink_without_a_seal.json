@@ -1,0 +1,73 @@
+{
+  "AssociatedNpc": "Bartender",
+  "Tier": 3,
+  "Title": "Nenhuma bebida sem lacre.",
+  "Description": "O sistema de refrigeração está avariado. Há algum vazamento, e o barman jura que a condensação cheira a sovaco de prisioneiro morto. Você deve inspecionar o tanque — e se encontrar algo que possa ser consertado, traga os materiais adequados. Nada de chiclete. Coisas de verdade.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1600,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Engineering",
+          "Experience": 3600
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Colete fita adesiva",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Duct_Tape"
+          ],
+          "RequiredNum": 5
+        }
+      ]
+    },
+    {
+      "TrackingCaption": "Interaja com o sistema de refrigeração próximo ao bar.",
+      "SequenceIndex": 1,
+      "CanBeAutoCompleted": true,
+      "Type": "Interaction",
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_4_Outpost_Ext_Saloon.B_4_Outpost_Ext_Saloon:PersistentLevel.BP_SaloonOutpost_2.InteriorStaticMesh21",
+          "FallbackTransform": "570464.625000,-222419.609375,262.050385|0.000000,-143.379745,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Items/Fish_Factory_Elements/Machinery/Boilers/SM_Boiler_03.SM_Boiler_03",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Outpost_Ext_Saloon.Z_3_Outpost_Ext_Saloon:PersistentLevel.BP_SaloonOutpost2_2.InteriorStaticMesh21",
+          "FallbackTransform": "22736.416016,-677347.250000,222.883148|0.000000,47.322735,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Items/Fish_Factory_Elements/Machinery/Boilers/SM_Boiler_03.SM_Boiler_03",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_0_Outpost_Ext_Saloon.A_0_Outpost_Ext_Saloon:PersistentLevel.BP_SaloonOutpost_2.InteriorStaticMesh21",
+          "FallbackTransform": "-624463.187500,-555586.625000,2348.032715|0.000000,-4.019904,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Items/Fish_Factory_Elements/Machinery/Boilers/SM_Boiler_03.SM_Boiler_03",
+          "Instance": 2
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_2_Outpost_Ext_Saloon.C_2_Outpost_Ext_Saloon:PersistentLevel.SM_SaloonBuilding_Part1_Outpost_5.InteriorStaticMesh21",
+          "FallbackTransform": "-152481.859375,294115.531250,69579.968750|0.000000,-78.209442,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Items/Fish_Factory_Elements/Machinery/Boilers/SM_Boiler_03.SM_Boiler_03",
+          "Instance": 5
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "SpawnOnlyNeeded": false,
+      "WorldMarkerShowDistance": 80
+    }
+  ]
+}

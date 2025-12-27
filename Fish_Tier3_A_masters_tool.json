@@ -1,0 +1,45 @@
+{
+  "AssociatedNpc": "Harbourmaster",
+  "Tier": 3,
+  "Title": "Uma ferramenta de mestre",
+  "Description": "Correm boatos de que uma vara de pesca profissional foi abandonada em algum lugar da costa – esquecida em uma caixa, perdida em um barco ou simplesmente deixada cair por alguém que não a merece. O pescador a quer. E você vai procurá-la.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 2000,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Awareness",
+          "Experience": 3500
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Traga uma vara de pesca profissional e um molinete ReelPro.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "FishingRod",
+            "FishingRod_A",
+            "FishingRod_B"
+          ],
+          "RequiredNum": 1
+        },
+        {
+          "AcceptedItems": [
+            "FishingReelPro"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+	"AssociatedNPC": "GeneralGoods",
+	"Tier": 1,
+	"Title": "Parafuso solto",
+	"Description": "Uma prateleira desabou no armazém do comerciante. A última entrega de parafusos estava... incompleta. Você deveria receber novos — de preferência antes que o teto desabe sobre a cabeça dele.",
+	"RewardPool": [
+		{
+			"CurrencyNormal": 500,
+			"Fame": 5,
+			"Skills": [
+				{
+					"Skill": "Engineering",
+					"Experience": 2000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"Type": "Fetch",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": false,
+			"TrackingCaption": "Obtenha pregos ou parafusos da área circundante.",
+			"DisablePurchaseOfRequiredItems": true,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Nails",
+						"Bolts"
+					],
+					"RequiredNum": 5
+				}
+			]
+		}
+	],
+	"TimeLimitHours": 24
+}

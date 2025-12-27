@@ -1,0 +1,50 @@
+{
+  "AssociatedNpc": "Banker",
+  "Tier": 1,
+  "Title": "Pontos extras para chapas metálicas",
+  "Description": "O banqueiro criou um sistema de recompensas: quem trouxer sucata de metal ganha um recibo. Quem tiver três recibos pode desabafar com o barman. O problema? Ainda não existem recibos, mas ele está testando se latas vazias servem. Você também pode usá-las para enxugar as lágrimas. Então, vamos lá.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 500,
+      "Fame": 5,
+      "Skills": [
+        {
+          "Skill": "Awareness",
+          "Experience": 1200
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Leve uma lata de comida para o banqueiro.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Canned_Corn",
+            "Canned_Tuna",
+            "CannedCatfood",
+            "CannedDogFood",
+            "CannedFruitCocktail",
+            "CannedGoulash",
+            "CannedPeach",
+            "CannedPear",
+            "CannedPeas",
+            "CannedSardine",
+            "CannedSardine_Deluxe",
+            "CannedSeafoodMix",
+            "CannedSpaghetti"
+          ],
+          "RequiredNum": 1,
+          "MinAcceptedItemUses": 1
+        }
+      ]
+    }
+  ]
+}

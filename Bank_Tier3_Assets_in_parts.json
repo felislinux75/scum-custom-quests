@@ -1,0 +1,37 @@
+{
+  "AssociatedNpc": "Banker",
+  "Tier": 3,
+  "Title": "Ativos em partes",
+  "Description": "O mercado negro de peças de carro está bombando – principalmente quando as peças ainda estão quentes. O banqueiro encontrou um comprador interessado em peças de Rager. Ele precisa de um banco de passageiro para o próximo encontro. Ninguém se importa de onde você conseguiu. Só certifique-se de que esteja sem arranhões e sem perguntas.",
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1800,
+      "Fame": 15,
+      "Skills": [
+        {
+          "Skill": "Driving",
+          "Experience": 3500
+        }
+      ]
+    }
+  ],
+  "Conditions": [
+    {
+      "TrackingCaption": "Pegue o banco dianteiro direito de um Rager",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
+      "Type": "Fetch",
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "Rager_Seat_FrontRight_Item"
+          ],
+          "RequiredNum": 1
+        }
+      ]
+    }
+  ]
+}
