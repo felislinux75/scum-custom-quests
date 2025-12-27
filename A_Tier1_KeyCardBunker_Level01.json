@@ -27,7 +27,7 @@
       "RequiredItems": [
         {
           "AcceptedItems": [
-            "KeyCardBunker_Level01",
+            "KeyCardBunker_Level01"
           ],
           "RequiredNum": 3
         }

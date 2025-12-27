@@ -2,11 +2,11 @@
   "AssociatedNpc": "Armorer",
   "Tier": 1,
   "Title": "Armas de fogo com estilo... e plástico.",
-  "Description": "Um cliente quer andar por aí com um silenciador "como nos filmes" – mas, claro, ele não tem nada adequado. O vendedor de armas quer mostrar a ele como é na realidade – pelo menos se quiser ganhar dinheiro fácil.",
+  "Description": "Um cliente quer andar por aí com um silenciador \"como nos filmes\" – mas, claro, ele não tem nada adequado. O vendedor de armas quer mostrar a ele como é na realidade – pelo menos se quiser ganhar dinheiro fácil.",
   "TimeLimitHours": 48.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 500,
+      "CurrencyNormal": 750,
       "Fame": 5,
       "Skills": [
         {

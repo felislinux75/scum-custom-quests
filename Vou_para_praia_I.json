@@ -23,7 +23,7 @@
       "CanBeAutoCompleted": false,
       "Type": "Fetch",
       "DisablePurchaseOfRequiredItems": false,
-      "PlayerKeepsItems": true,
+      "PlayerKeepsItems": false,
       "RequiredItems": [
         {
           "AcceptedItems": [
@@ -31,7 +31,7 @@
             "10_Teeth_Necklace",
             "15_Teeth_Necklace"
           ],
-          "RequiredNum": 5
+          "RequiredNum": 3
         },
         {
           "AcceptedItems": [
@@ -39,7 +39,7 @@
             "4_pieces_Ear_Necklace",
             "6_pieces_Ear_Necklace"
           ],
-          "RequiredNum": 5
+          "RequiredNum": 3
         }
       ]
     }

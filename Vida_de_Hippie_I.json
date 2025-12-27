@@ -3,11 +3,11 @@
   "Tier": 1,
   "Title": "Vida de Hippie",
   "Description": "Meus pais nunca acreditaram em mim, sempre quiseram que eu estudasse e fosse um garoto de sucesso, toda via eu preifo traçar meus rumos, estou precisando de missangas para um projeto, pode me ajudar com alguns olhos de vidro.",
-  "TimeLimitHours": 24.0,
+  "TimeLimitHours": 48.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 2400,
-      "Fame": 5,
+      "CurrencyNormal": 6000,
+      "Fame": 10,
       "Skills": [
         {
           "Skill": "Survival",

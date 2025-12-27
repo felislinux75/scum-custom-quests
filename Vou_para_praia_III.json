@@ -6,7 +6,7 @@
   "TimeLimitHours": 48.0,
   "RewardPool": [
     {
-      "CurrencyNormal": 3000,
+      "CurrencyNormal": 6000,
       "Fame": 20,
       "Skills": [
         {
@@ -29,13 +29,13 @@
           "AcceptedItems": [
             "15_Teeth_Necklace"
           ],
-          "RequiredNum": 10
+          "RequiredNum": 12
         },
         {
           "AcceptedItems": [
             "6_pieces_Ear_Necklace"
           ],
-          "RequiredNum": 10
+          "RequiredNum": 12
         }
       ]
     }
