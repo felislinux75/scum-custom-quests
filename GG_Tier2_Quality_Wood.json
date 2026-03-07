@@ -1,12 +1,12 @@
 {
-  "Associated Npc": "General Goods",
-  "Tier": 2,
+  "AssociatedNpc": "GeneralGoods",
+  "Tier": 1,
   "Title": "Madeira de qualidade",
   "Description": "Estou precisando aumentar meu galpão de bagaceiras, mas preciso de madeiras de qualidade, la em D2 tem umas maquinas de corte profissional , verifique se tem qualidade mesmo.",
-  "Time Limit Hours": 48.0,
-  "Reward Pool": [
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
     {
-      "Currency Normal": 1500,
+      "CurrencyNormal": 1500,
       "Fame": 5,
       "Skills": [
         {
@@ -18,9 +18,9 @@
   ],
   "Conditions": [
     {
-      "Tracking Caption": "Verifique maquinas de corte na madereira em D2.",
-      "Sequence Index": 0,
-      "Can Be Auto Completed": true,
+      "TrackingCaption": "Verifique maquinas de corte na madereira em D2.",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
       "Type": "Interaction",
       "Locations": [
         {
@@ -48,10 +48,10 @@
           "Instance": 2
         }
       ],
-      "Min Needed": 1,
-      "Max Needed": 1,
-      "Spawn Only Needed": true,
-      "World Marker Show Distance": 100,
+      "MinNeeded": 1,
+      "MaxNeeded": 4,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 100,
       "LocationsShownOnMap": [
         {
           "Location": {

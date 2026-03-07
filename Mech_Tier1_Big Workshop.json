@@ -1,12 +1,12 @@
 {
-  "Associated Npc": "Mechanic",
+  "AssociatedNpc": "Mechanic",
   "Tier": 1,
   "Title": "Oficina Grande",
   "Description": "O mecânico esta ampliando os negocios e esta avaliando oficinas especiais. Avalie elevadores de veiculos nas oficinas da cidade grande Traga um carjacks de la ",
-  "Time Limit Hours": 48.0,
-  "Reward Pool": [
+  "TimeLimitHours": 48.0,
+  "RewardPool": [
     {
-      "Currency Normal": 1000,
+      "CurrencyNormal": 1000,
       "Fame": 5,
       "Skills": [
         {
@@ -14,22 +14,22 @@
           "Experience": 3000
         }
       ],
-      "Trade Deals": [
+      "TradeDeals": [
         {
           "Item": "Car_Jack",
           "Price": 1000,
           "Amount": 1,
           "Fame": 25,
-          "Allow Excluded": true
+          "AllowExcluded": true
         }
       ]
     }
   ],
   "Conditions": [
     {
-      "Tracking Caption": "Oficina da feira",
-      "Sequence Index": 0,
-      "Can Be Auto Completed": true,
+      "TrackingCaption": "Oficina da feira",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
       "Type": "Interaction",
       "Locations": [
         {
@@ -45,10 +45,10 @@
           "Instance": 2
         }
       ],
-      "Min Needed": 1,
-      "Max Needed": 2,
-      "Spawn Only Needed": true,
-      "World Marker Show Distance": 5,
+      "MinNeeded": 1,
+      "MaxNeeded": 2,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 5,
       "LocationsShownOnMap": [
         {
           "Location": {
@@ -61,9 +61,9 @@
       ]
     },
     {
-      "Tracking Caption": "Oficina du rio",
-      "Sequence Index": 0,
-      "Can Be Auto Completed": true,
+      "TrackingCaption": "Oficina du rio",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
       "Type": "Interaction",
       "Locations": [
         {
@@ -79,10 +79,10 @@
           "Instance": 1
         }
       ],
-      "Min Needed": 1,
-      "Max Needed": 2,
-      "Spawn Only Needed": true,
-      "World Marker Show Distance": 5,
+      "MinNeeded": 1,
+      "MaxNeeded": 2,
+      "SpawnOnlyNeeded": true,
+      "WorldMarkerShowDistance": 5,
       "LocationsShownOnMap": [
         {
           "Location": {
@@ -95,13 +95,13 @@
       ]
     },
     {
-      "Tracking Caption": "Car Jack graaande",
-      "Sequence Index": 0,
-      "Can Be Auto Completed": true,
+      "TrackingCaption": "Car Jack graaande",
+      "SequenceIndex": 0,
+      "CanBeAutoCompleted": true,
       "Type": "Fetch",
-      "Disable Purchase Of Required Items": true,
-      "Player Keeps Items": false,
-      "Required Items": [
+      "DisablePurchaseOfRequiredItems": true,
+      "PlayerKeepsItems": false,
+      "RequiredItems": [
         {
           "AcceptedItems": [
             "Car_Jack"

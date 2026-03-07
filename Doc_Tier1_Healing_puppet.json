@@ -2,7 +2,7 @@
   "AssociatedNpc": "Doctor",
   "Tier": 1,
   "Title": "A procura do paciente 0",
-  "Description": "O medico tem uma desconfiança um tratamento experimental surgiu na faculdade de medicina na cidade grande, porem relatos dizem que o pesquisador foi empurrado de um lugar alto, va la e verifique o elevador e o alçapão da escadaria pra descobrir pistas da cura do zubinismo.",
+  "Description": "O medico tem uma desconfiança um tratamento experimental surgiu no sanatorio da cidade grande, porem relatos dizem que o pesquisador foi empurrado de um lugar alto, va la e verifique o elevador e o alçapão da escadaria pra descobrir pistas da cura do zubinismo.",
   "TimeLimitHours": 48.0,
   "RewardPool": [
     {
